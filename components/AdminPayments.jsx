@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 // Demo admin UI to store payment configuration locally.
 // WARNING: For real deployments, never store secret keys in client-side storage.
-export defaaqqult function AdminPayments() {
+export function AdminPayments() {
   const [cfg, setCfg] = useState({ paystackWebhook: '', opayMerchant: '9047393086', whatsapp: '' });
 
   useEffect(() => {
